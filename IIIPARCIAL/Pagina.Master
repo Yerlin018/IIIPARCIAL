@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Pagina.master.cs" Inherits="IIIPARCIAL.Pagina" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Votaciones</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CCS/Pagina.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="navbar">
+                <ul>
+                    <li><a href="inicio.aspx">Inicio</a></li>
+                    <li><a href="inscripciones.aspx">Inscripciones</a></li>
+                    <li><a href="votaciones.aspx">Votaciones</a></li>
+                    <li><a href="resultados.aspx">Resultados</a></li>
+                    <li><a href="Salir.aspx">Salir</a></li>
+                </ul>
+              </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+         
+        </div>
+    </form>
+</body>
+</html>
